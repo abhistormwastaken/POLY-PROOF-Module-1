@@ -2,6 +2,10 @@
 
 This project involves the creation of an ERC-721 compliant NFT contract called "UNFTC" and the deployment of this contract on the Goerli test network. Subsequently, NFTs are minted using the contract, and a few of these NFTs are transferred from Goerli to the Mumbai test network. Finally, the balance of NFTs on the Mumbai test network is displayed.
 
+# Video Explaination
+
+https://www.loom.com/share/a641abe2ff454e67992a4463fd04ae38?sid=fd523bab-e364-4d2d-a81c-18fa6daf55dc
+
 ## Smart Contract
 
 The smart contract is written in Solidity and is named `UNFTC.sol`. The contract inherits from OpenZeppelin's ERC721 contract. The contract allows minting of NFTs and stores metadata URIs for each token. The contract also has a `mintNFT` function for minting new NFTs.
